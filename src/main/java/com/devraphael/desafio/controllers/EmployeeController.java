@@ -1,4 +1,4 @@
-package com.devsuperior.demo.controllers;
+package com.devraphael.desafio.controllers;
 
 import java.net.URI;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.devsuperior.demo.dto.EmployeeDTO;
-import com.devsuperior.demo.services.EmployeeService;
+import com.devraphael.desafio.dto.EmployeeDTO;
+import com.devraphael.desafio.services.EmployeeService;
 
 @RestController
 @RequestMapping(value = "/employees")

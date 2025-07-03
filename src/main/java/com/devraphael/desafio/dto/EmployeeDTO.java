@@ -1,6 +1,6 @@
-package com.devsuperior.demo.dto;
+package com.devraphael.desafio.dto;
 
-import com.devsuperior.demo.entities.Employee;
+import com.devraphael.desafio.entities.Employee;
 
 public class EmployeeDTO {
 	

@@ -1,4 +1,4 @@
-package com.devsuperior.demo.services;
+package com.devraphael.desafio.services;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.devsuperior.demo.dto.DepartmentDTO;
-import com.devsuperior.demo.repositories.DepartmentRepository;
+import com.devraphael.desafio.dto.DepartmentDTO;
+import com.devraphael.desafio.repositories.DepartmentRepository;
 
 @Service
 public class DepartmentService {

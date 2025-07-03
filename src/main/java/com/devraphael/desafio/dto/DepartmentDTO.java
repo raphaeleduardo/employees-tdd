@@ -1,6 +1,6 @@
-package com.devsuperior.demo.dto;
+package com.devraphael.desafio.dto;
 
-import com.devsuperior.demo.entities.Department;
+import com.devraphael.desafio.entities.Department;
 
 public class DepartmentDTO {
 
@@ -24,8 +24,16 @@ public class DepartmentDTO {
 		return id;
 	}
 
+	public void setId(Long id) {
+		this.id = id;
+	}
+
 	public String getName() {
 		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 }

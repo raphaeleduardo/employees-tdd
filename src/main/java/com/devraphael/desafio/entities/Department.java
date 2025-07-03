@@ -1,4 +1,4 @@
-package com.devsuperior.demo.entities;
+package com.devraphael.desafio.entities;
 
 import java.util.ArrayList;
 import java.util.List;

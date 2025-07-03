@@ -1,4 +1,4 @@
-package com.devsuperior.demo.services;
+package com.devraphael.desafio.services;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,10 +7,10 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.demo.dto.EmployeeDTO;
-import com.devsuperior.demo.entities.Department;
-import com.devsuperior.demo.entities.Employee;
-import com.devsuperior.demo.repositories.EmployeeRepository;
+import com.devraphael.desafio.dto.EmployeeDTO;
+import com.devraphael.desafio.entities.Department;
+import com.devraphael.desafio.entities.Employee;
+import com.devraphael.desafio.repositories.EmployeeRepository;
 
 
 

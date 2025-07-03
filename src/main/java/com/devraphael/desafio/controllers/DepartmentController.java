@@ -1,4 +1,4 @@
-package com.devsuperior.demo.controllers;
+package com.devraphael.desafio.controllers;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devsuperior.demo.dto.DepartmentDTO;
-import com.devsuperior.demo.services.DepartmentService;
+import com.devraphael.desafio.dto.DepartmentDTO;
+import com.devraphael.desafio.services.DepartmentService;
 
 @RestController
 @RequestMapping(value = "/departments")
